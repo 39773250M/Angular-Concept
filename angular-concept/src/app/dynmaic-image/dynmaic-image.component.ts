@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import {NgOptimizedImage} from '@angular/common';
 
 @Component({
   selector: 'app-dynmaic-image',
   standalone: true,
-  imports: [],
+  imports: [NgOptimizedImage],
   templateUrl: './dynmaic-image.component.html',
   styleUrl: './dynmaic-image.component.scss'
 })

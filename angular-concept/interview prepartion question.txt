@@ -1,0 +1,5 @@
+href vs routerlink
+ngshow vs ngif vs ngclass  {display :block /none ; visibility: hidden / show;}
+Forms => Reactive forms / Normal forms 
+Service => Property Inject, Constructor Inject 
+pipes = > Impure pipes and Pure pipes (What are types of pipes import do we have)

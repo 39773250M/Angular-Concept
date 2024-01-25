@@ -1,0 +1,7 @@
+
+ngSwitch - incomplete 
+@errorblocks @placeholder @defer - incomplete 
+differnt events type - click - incomplete
+form develop :- incomplete
+pipe:- Different types pipe [] - incomplete 
+

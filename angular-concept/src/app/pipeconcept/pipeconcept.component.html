@@ -1,0 +1,15 @@
+<p>pipeconcept works!</p>
+{{ username | uppercase }}
+
+<ul>
+    <li>Number with "decimal" {{ num | number : '3.2-4' }}</li>
+    <li>Date with "date" {{ birthday | date : 'medium' }}</li>
+    <li>Currency with "currency" {{ cost | currency }}</li>
+  </ul>
+
+  <div>
+    <p>Without JSON pipe:</p>
+    <pre>{{ object }}</pre>
+    <p>With JSON pipe:</p>
+    <pre>{{ object | json }}</pre>
+  </div>
