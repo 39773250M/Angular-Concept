@@ -34,17 +34,61 @@
 
     <ul>
         @for(user of users; track user.id) {
-            <li><a href="#\'user.name\'">{{ user.name }}</a></li>
+            <li><a href="#{{user.name}}'">{{ user.id }}--{{ user.name }} -- {{user.degree}}</a></li>
             }
     </ul>
    
 
+    <br>
+    <br>
+
+    <ul>
+      @for(xyz of operatingSystems; track xyz.id) {
+          <li><a href="#{{xyz.name}}'">{{ xyz.id }}--{{ xyz.name }}</a></li>
+          }
+  </ul>
+
     <h1>
-       On mouse over event on a elemnet 
+       On mouse over event on a elemnet  {{isEditable}}
      </h1>
         <div [contentEditable]="isEditable"> </div>
-
+        <br>
+        <br>
+        <br>
+        <button (click)="checkvalue()" value=""> murugan ---- {{xyz}}</button>
+        <br>
+        <br>
+        <br>
         <section (mouseover)="onMouseOver()">
             There's a secret message for you, hover to reveal:
             {{ message }}
           </section>
+
+          <br>
+          <br>
+
+          <button (click)="greet()">greet button {{greet1}}</button>
+<!-- 
+          (focus)="myMethod()"
+(blur)="myMethod()" 
+(submit)="myMethod()"  
+(scroll)="myMethod()"
+
+(cut)="myMethod()"
+(copy)="myMethod()"
+(paste)="myMethod()"
+
+(keydown)="myMethod()"
+(keypress)="myMethod()"
+(keyup)="myMethod()"
+
+(mouseenter)="myMethod()"
+(mousedown)="myMethod()"
+(mouseup)="myMethod()"
+
+(click)="myMethod()"
+(dblclick)="myMethod()"
+
+(drag)="myMethod()"
+(dragover)="myMethod()"
+(drop)="myMethod()" -->

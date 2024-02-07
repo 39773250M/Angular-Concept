@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { ConceptServiceService } from '../Service/concept-service.service';
+import { ConceptServiceService } from '../Service/conceptService/concept-service.service';
 
 
 @Component({

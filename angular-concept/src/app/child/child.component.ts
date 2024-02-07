@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, EventEmitter, Input, Output, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-child',
@@ -8,11 +8,15 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
   styleUrl: './child.component.scss'
 })
 export class ChildComponent {
-  @Input() name = '';
+  @Input() name = 'santhosh';
 
-  @Output() addItemEvent = new EventEmitter<string>();
+  @Input() occupation = 'Software engineer';
 
-  addItem() {
-    this.addItemEvent.emit('🐢');
-  }
+  // @Output() addItemEvent = new EventEmitter<string>();
+  
+  // @ViewChild()
+
+  // addItem() {
+  //   this.addItemEvent.emit('🐢');
+  // }
 }

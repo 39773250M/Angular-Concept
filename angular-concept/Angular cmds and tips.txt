@@ -1,0 +1,22 @@
+ng new project-name
+ 
+cd project-name
+ 
+ng serve
+ 
+ng serve --port 3000
+ 
+ng generate component component-name     ng g c xys
+ 
+ng generate service service-name       ng g s xyzService
+ 
+ng generate module module-name         ng g m xyz
+ 
+ 
+ng build
+ 
+ng build --prod
+ 
+ng test
+ng lint
+ng help

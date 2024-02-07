@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
-import { ReversePipe } from '../Pipes/reverse.pipe';
+import { Component, Pipe } from '@angular/core';
+import { ReversePipe } from '../Pipes/ReversePipe/reverse.pipe';
+
+  
 
 @Component({
   selector: 'app-user',
@@ -10,5 +12,5 @@ import { ReversePipe } from '../Pipes/reverse.pipe';
 })
 export class UserComponent {
 
-  userName = "my name is murugan"
+  userName = "Gopinath BCA"
 }
