@@ -9,13 +9,14 @@ import { DynmaicImageComponent } from "./dynmaic-image/dynmaic-image.component";
 import { NavigationComponent } from "./navigation/navigation.component";
 import { UserComponent } from "./user/user.component";
 import { HomeComponent } from "./home/home.component";
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.scss',
-    imports: [CommonModule, RouterOutlet,RouterLink, ConceptComponentComponent, ParentComponent, ChildComponent, DeferComponent, DynmaicImageComponent, NavigationComponent, UserComponent, HomeComponent]
+    imports: [MatSlideToggleModule,CommonModule, RouterOutlet,RouterLink, ConceptComponentComponent, ParentComponent, ChildComponent, DeferComponent, DynmaicImageComponent, NavigationComponent, UserComponent, HomeComponent]
 })
 export class AppComponent {
   title = 'angular-concept';

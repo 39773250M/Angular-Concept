@@ -9,6 +9,7 @@ import { DynmaicImageComponent } from './dynmaic-image/dynmaic-image.component';
 import { FormsComponent } from './forms/forms.component';
 import { ReactiveFormsComponent } from './reactive-forms/reactive-forms.component';
 import { PipeconceptComponent } from './pipeconcept/pipeconcept.component';
+import { AngularMaterailComponent } from './angular-materail/angular-materail.component';
 
 export const routes: Routes = [
     {
@@ -61,5 +62,10 @@ export const routes: Routes = [
         title: 'Pipe related concept',
         component: PipeconceptComponent,
       },
+      {
+        path: 'angular-material',
+        title: 'Angular material concept',
+        component: AngularMaterailComponent,
+      }
 
 ];
