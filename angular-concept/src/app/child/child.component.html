@@ -3,8 +3,15 @@
 
   <!-- <p>The user's name is is child component {{ name }}</p> -->
 
-  <p>The user's name is  child component {{ name }}</p>
+  <!-- <p>The user's name is  child component {{ name }}</p>
 
-  {{occupation}}
+  {{occupation}} -->
+@if( addItemEvent ){
+  <button class="btn" (click)="addItem()">Add Item</button> <br><br>
+}
+@else{
+ 
+}
+<button class="btn" (click)="removeItem()">Remove Item</button>
 
-  <!-- <button class="btn" (click)="addItem()">Add Item</button> -->
+  

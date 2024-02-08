@@ -13,7 +13,7 @@ export class ConceptComponentComponent {
 
   isServerRunning = true;
 
-  isEditable: boolean = true;
+  isEditable: boolean = false;
   
  
   users = [
@@ -41,7 +41,7 @@ export class ConceptComponentComponent {
     ]
 
 
-  message: string= "";
+  message: string= "wedwe";
   xyz:string="";
 
   greet1:string="";

@@ -1,8 +1,9 @@
-<p>parent works!</p>
-<!-- <span name="Simran"></span> -->
 
- <app-child name="Simran" occupation="Doctor" /> 
 
- <!-- <app-child (addItemEvent)="addItem($event)" />  -->
+ <!-- <app-child name="Murugan" occupation="Doctor" />  -->
 
-<!-- <p>🐢 all the way down {{ items.length }}</p> -->
+ <app-child (addItemEvent)="addItem($event)" /> 
+
+ <app-child (removeItemEvent)="removeItem($event)" /> 
+
+<p>🐢 all the way down {{ items.length }}</p>

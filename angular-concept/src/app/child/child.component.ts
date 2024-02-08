@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, Output, ViewChild } from '@angular/core';
+import { Component, EventEmitter, Input, Output, ViewChild, input } from '@angular/core';
 
 @Component({
   selector: 'app-child',
@@ -9,14 +9,22 @@ import { Component, EventEmitter, Input, Output, ViewChild } from '@angular/core
 })
 export class ChildComponent {
   @Input() name = 'santhosh';
+  
 
   @Input() occupation = 'Software engineer';
 
-  // @Output() addItemEvent = new EventEmitter<string>();
+   @Output() addItemEvent = new EventEmitter<string>();
+   
+   @Output() removeItemEvent = new EventEmitter<string>();
   
   // @ViewChild()
 
-  // addItem() {
-  //   this.addItemEvent.emit('🐢');
-  // }
+  addItem() {
+    this.addItemEvent.emit('🐢');
+
+  }
+
+  removeItem() {
+    this.removeItemEvent.emit('🐢');
+  }
 }
