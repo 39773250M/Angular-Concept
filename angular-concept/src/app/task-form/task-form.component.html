@@ -1,0 +1,22 @@
+<p>task-form works!</p>
+
+
+ <form [formGroup]="profileForm">
+    <label>Title:</label>
+    <input [(ngModel)]="task.title"   formControlName="title">
+  <br>
+  <br>
+    <label>Description:</label>
+    <textarea [(ngModel)]="task.description" formControlName="description" ></textarea>
+  <br>
+  <br>
+    <label>Due Date:</label>
+    <input [(ngModel)]="task.dueDate" formControlName="date" type="date" >
+  <br>
+  <br>
+    <label>Status:</label>
+    <input type="checkbox"  [(ngModel)]="task.status" formControlName="status" type="checkbox">
+  <br>
+  <br>
+    <button type="button" (click)="addTask()" formControlName="addTask">Add Task</button>
+  </form> 

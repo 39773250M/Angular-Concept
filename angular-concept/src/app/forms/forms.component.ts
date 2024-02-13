@@ -9,7 +9,7 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './forms.component.scss'
 })
 export class FormsComponent {
-  favoriteFramework = '';
+  favoriteFramework = 'hello this is two way binding';
   username = 'youngTech';
 
   showFramework(){

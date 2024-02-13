@@ -1,17 +1,17 @@
-import { CurrencyPipe, DatePipe, DecimalPipe, JsonPipe, LowerCasePipe, UpperCasePipe } from '@angular/common';
+import { CurrencyPipe, DatePipe, DecimalPipe, JsonPipe, LowerCasePipe, TitleCasePipe, UpperCasePipe } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-pipeconcept',
   standalone: true,
-  imports: [LowerCasePipe,UpperCasePipe,DecimalPipe,CurrencyPipe,DatePipe,JsonPipe],
+  imports: [LowerCasePipe,UpperCasePipe,DecimalPipe,CurrencyPipe,DatePipe,JsonPipe,TitleCasePipe],
   templateUrl: './pipeconcept.component.html',
   styleUrl: './pipeconcept.component.scss'
 })
 export class PipeconceptComponent {
-  username = 'yOunGTECh';
+  username = 'yOunGTECh sachin';
 
-  num = 103.1234;
+  num = 1034564.123445646;
   birthday = new Date(2023, 3, 2);
   cost = 4560.34;
 

@@ -13,18 +13,18 @@ export class ChildComponent {
 
   @Input() occupation = 'Software engineer';
 
-   @Output() addItemEvent = new EventEmitter<string>();
+  //  @Output() xyz = new EventEmitter<number>();
    
-   @Output() removeItemEvent = new EventEmitter<string>();
+  //  @Output() removeItemEvent = new EventEmitter<number>();
   
   // @ViewChild()
 
-  addItem() {
-    this.addItemEvent.emit('🐢');
+  // addItem() {
+  //   this.xyz.emit(100);
 
-  }
+  // }
 
-  removeItem() {
-    this.removeItemEvent.emit('🐢');
-  }
+  // removeItem() {
+  //   this.removeItemEvent.emit(100);
+  // }
 }

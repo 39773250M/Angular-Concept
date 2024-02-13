@@ -1,8 +1,9 @@
 <p>pipeconcept works!</p>
-{{ username | uppercase }}
+
+{{ username | titlecase }}
 
 <ul>
-    <li>Number with "decimal" {{ num | number : '3.2-4' }}</li>
+    <li>Number with "decimal" {{ num | number : '3.2-6' }}</li>
     <li>Date with "date" {{ birthday | date : 'medium' }}</li>
     <li>Currency with "currency" {{ cost | currency }}</li>
   </ul>

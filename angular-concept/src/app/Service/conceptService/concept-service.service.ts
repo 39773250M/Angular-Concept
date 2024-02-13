@@ -10,7 +10,7 @@ export class ConceptServiceService {
     return this.cars;
   }
 
-  getCar(id: number) {
+   getCar(id: number) {
     return this.cars[id];
   }
 

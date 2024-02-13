@@ -9,6 +9,7 @@ import { DynmaicImageComponent } from './dynmaic-image/dynmaic-image.component';
 import { FormsComponent } from './forms/forms.component';
 import { ReactiveFormsComponent } from './reactive-forms/reactive-forms.component';
 import { PipeconceptComponent } from './pipeconcept/pipeconcept.component';
+import { TaskListComponent } from './task-list/task-list.component';
 
 export const routes: Routes = [
     {
@@ -60,6 +61,11 @@ export const routes: Routes = [
         path: 'pipe',
         title: 'Pipe related concept',
         component: PipeconceptComponent,
+      },
+      {
+        path: 'tasks-page',
+        title: 'Angular task page',
+        component: TaskListComponent,
       },
 
 ];

@@ -8,15 +8,15 @@ import { Component } from '@angular/core';
   styleUrl: './concept-component.component.scss'
 })
 export class ConceptComponentComponent {
-  username = 'Murugan Perumal';
+  username:number = 12342423;
 
 
-  isServerRunning = true;
+  isServerRunning:boolean = true;
 
   isEditable: boolean = false;
   
  
-  users = [
+  users:any = [
     {id: 0, name: 'Sarah', degree:'BE', complemeted:true},
     {id: 1, name: 'Sarah'},
     {id: 2, name: 'Rachel'},
