@@ -13,13 +13,13 @@ export class ParentComponent {
 
 items = new Array();
 
-  addItem(item: number) {
-    console.log("called" + item)
+  addItem(item: any) {
+    console.log("parent called add item" + item)
     this.items.push(item);
   }
 
   removeItem(item: number) {
-    console.log("called" + item)
+    console.log("parent called remove item" + item)
     this.items.pop();
   }
 }

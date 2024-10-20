@@ -12,11 +12,11 @@ import { PipeconceptComponent } from './pipeconcept/pipeconcept.component';
 import { TaskListComponent } from './task-list/task-list.component';
 
 export const routes: Routes = [
-    {
-        path: '',
-        title: 'App Home Page',
-        component: HomeComponent,
-      },
+    // {
+    //     path: '',
+    //     title: 'App Home Page',
+    //     component: HomeComponent,
+    //   },
       {
         path: 'user',
         title: 'App User Page',

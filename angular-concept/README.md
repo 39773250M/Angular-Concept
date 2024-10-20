@@ -1,3 +1,7 @@
+ npm install uuid
+ npm install @types/uuid --save-dev
+ npm install
+https://blog.octoperf.com/angular-performance-optimization---ngfor-trackby/
 # AngularConcept
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.

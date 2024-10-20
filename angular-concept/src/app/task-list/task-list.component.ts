@@ -7,7 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { TaskFormComponent } from '../task-form/task-form.component';
 import { RouterOutlet } from '@angular/router';
 import { CurrencyPipe, DatePipe } from '@angular/common';
-import { SearchPipe } from '../Pipes/search.pipe';
+import { SearchPipe } from '../Pipes/SearchPipe/search.pipe';
 
 @Component({
   selector: 'app-task-list',

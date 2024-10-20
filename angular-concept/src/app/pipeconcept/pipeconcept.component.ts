@@ -13,7 +13,7 @@ export class PipeconceptComponent {
 
   num = 1034564.123445646;
   birthday = new Date(2023, 3, 2);
-  cost = 4560.34;
+  cost = 1500;
 
   object: Object = {foo: 'bar', baz: 'qux', nested: {xyz: 3, numbers: [1, 2, 3, 4, 5]}};
 }

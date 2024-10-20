@@ -5,7 +5,7 @@
 <ul>
     <li>Number with "decimal" {{ num | number : '3.2-6' }}</li>
     <li>Date with "date" {{ birthday | date : 'medium' }}</li>
-    <li>Currency with "currency" {{ cost | currency }}</li>
+    <li>Currency with "currency" {{ cost | currency:'INR':'symbol':'1.4-4' }}</li>
   </ul>
 
   <div>

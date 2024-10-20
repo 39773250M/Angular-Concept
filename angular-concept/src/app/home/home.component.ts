@@ -21,7 +21,7 @@ export class HomeComponent {
     
       this.display = this.conceptserviceService.getCars().join(' ⭐️ ');
     this.dispaly2 = this.ComponentProperty.getCars().join(' ⭐️ ');
-   // this.display3 = this.ComponentProperty.getCar();
+    this.display3 = this.ComponentProperty.getCars();
     
 
   }

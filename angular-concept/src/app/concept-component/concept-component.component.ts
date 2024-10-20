@@ -41,13 +41,13 @@ export class ConceptComponentComponent {
     ]
 
 
-  message: string= "wedwe";
+  message: string= "wedwe vfgndjy  htdhtyhtrnhn";
   xyz:string="";
 
   greet1:string="";
 
   onMouseOver() {
-    this.message = 'Way to go 🚀 this is a mouese over';
+    this.message = 'Way to go 🚀 this is a mouese over dfbvgfdbvddfvd';
     console.log('Mouse over 👋', this.message);
   }
   checkvalue(){
